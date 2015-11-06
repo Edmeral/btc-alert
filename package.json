@@ -1,0 +1,20 @@
+{
+  "name": "btc-alert",
+  "version": "1.0.0",
+  "description": "Alerts of bitcoin price changes via email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "btc",
+    "email",
+    "alert"
+  ],
+  "author": "Aissam BELHACHMI <edmeral.aissam@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "i": "^0.3.3",
+    "request": "^2.65.0"
+  }
+}
