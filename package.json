@@ -14,7 +14,10 @@
   "author": "Aissam BELHACHMI <edmeral.aissam@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^1.2.0",
     "i": "^0.3.3",
+    "nodemailer": "^1.8.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
     "request": "^2.65.0"
   }
 }
