@@ -14,7 +14,7 @@ var email = {
 };
 
 var CAP = process.env.CAP;
-var sent = false; // Don't send mutiple emails
+var sent = false; // Don't send multiple emails
 
 function checkBTC() {
   request('https://bitpay.com/api/rates/USD', function(err, res, body) {
@@ -27,7 +27,7 @@ function checkBTC() {
         mailer.sendMail(email, function(err, res){
           if(err)
             return console.log(err);
-          sent = true; 
+          sent = true;
           console.log('Email sent!');
         });
       }
