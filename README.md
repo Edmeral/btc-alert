@@ -25,5 +25,5 @@ INTERVAL=how many minutes to wait before checking the price again, example: 60 (
 $ npm start
 ```
 
-#### Running it as a deamon
-If you want to run this in the background (as a deamon), check out [pm2](https://www.npmjs.com/package/pm2).
+#### Running it as a daemon
+If you want to run this in the background (as a daemon), check out [pm2](https://www.npmjs.com/package/pm2).
