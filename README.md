@@ -1,5 +1,7 @@
 Send alerts via email if BTC price is greater than a certain value (in $).
 
+![Screenshot](https://i.imgur.com/VJQErrM.png)
+
 ## How to configure
 You need to have a [SendGrid](http://sendgrid.com) account to send emails.
 
